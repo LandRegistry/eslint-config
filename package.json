@@ -1,0 +1,40 @@
+{
+  "name": "@hmlr/eslint-config",
+  "version": "0.1.0",
+  "description": "Shareable ESLint config",
+  "scripts": {
+    "test": "npm run test:conflicts",
+    "test:conflicts": "npx eslint-config-prettier index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LandRegistry/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "hmlr",
+    "landregistry"
+  ],
+  "author": "Andrew Hosgood <andrew.hosgood@landregistry.gov.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LandRegistry/eslint-config/issues"
+  },
+  "homepage": "https://github.com/LandRegistry/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^7.22.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "prettier": "^2.2.1"
+  }
+}
