@@ -2,8 +2,6 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:import/errors",
-    // "plugin:react/recommended",
-    // "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended",
   ],
   // env: {
@@ -17,7 +15,6 @@ module.exports = {
     },
   },
   // https://eslint.org/docs/user-guide/configuring/rules
-  // https://eslint.org/demo
   rules: {
     "constructor-super": 2,
     "for-direction": 2,
