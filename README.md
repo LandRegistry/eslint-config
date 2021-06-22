@@ -16,16 +16,10 @@ https://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-conf
 
 ## Use within React projects
 
-```sh
-npm i eslint-plugin-jsx eslint-plugin-jsx-a11y eslint-plugin-react
-```
-
 ```json
 {
     "extends": [
-        "plugin:react/recommended",
-        "plugin:jsx-a11y/recommended",
-        "@hmlr/eslint-config"
+        "@hmlr/eslint-config/react"
     ]
 }
 ```
