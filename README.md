@@ -18,9 +18,7 @@ https://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-conf
 
 ```json
 {
-    "extends": [
-        "@hmlr/eslint-config/react"
-    ]
+    "extends": "@hmlr/eslint-config/react"
 }
 ```
 
