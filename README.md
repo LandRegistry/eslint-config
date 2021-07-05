@@ -1,7 +1,7 @@
 # HMLR ESLint Config
 
 ```sh
-npm i @hmlr/eslint-config
+npm i -D @hmlr/eslint-config
 ```
 
 ## General use for JS or TS projects
