@@ -4,15 +4,11 @@ module.exports = {
     "plugin:import/errors",
     "plugin:prettier/recommended",
   ],
-  // env: {
-  //     browser: true
-  // },
+  env: {
+    es6: true
+  },
   parserOptions: {
-    ecmaVersion: 12,
-    // sourceType: "script",
-    ecmaFeatures: {
-      jsx: true,
-    },
+    ecmaVersion: 6
   },
   // https://eslint.org/docs/user-guide/configuring/rules
   rules: {
