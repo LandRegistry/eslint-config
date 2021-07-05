@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "@hmlr/eslint-config"
   ],
@@ -8,12 +9,9 @@ module.exports = {
     browser: true,
     jest: true
   },
-  plugins: [
-    "eslint-plugin-react-hooks"
-  ],
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: "script",
+    sourceType: "module",
     ecmaFeatures: {
       jsx: true
     }
