@@ -72,6 +72,7 @@ module.exports = {
     "no-undef-init": 2,
     "prefer-const": 2,
     "prefer-destructuring": 2,
+    "prefer-template": 2
   }
 }
 
