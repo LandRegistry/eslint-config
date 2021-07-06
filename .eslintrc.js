@@ -10,7 +10,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 6
   },
-  // https://eslint.org/docs/user-guide/configuring/rules
   rules: {
     "constructor-super": 2,
     "for-direction": 2,
