@@ -39,7 +39,7 @@ Add the config to the `extends` property of your `.eslintrc` file. For more info
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/LandRegistry/govuk-frontend-jinja/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/LandRegistry/eslint-config/tags).
 
 ## How to contribute
 
