@@ -5,6 +5,11 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
     "@hmlr/eslint-config"
   ],
+  settings: {
+    "react": {
+      "version": "detect"
+    }
+  },
   env: {
     browser: true,
     jest: true
