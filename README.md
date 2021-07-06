@@ -37,6 +37,21 @@ Add the config to the `extends` property of your `.eslintrc` file. For more info
 }
 ```
 
+### Running the rules
+
+Add any or all of the following scripts to your `package.json`, changing directories and extensions as necessary:
+
+```json
+{
+  "scripts": {
+    "eslint": "eslint src",
+    "eslint:fix": "eslint --fix src",
+    "prettier": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'",
+    "prettier:fix": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'"
+  }
+}
+```
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/LandRegistry/eslint-config/tags).
