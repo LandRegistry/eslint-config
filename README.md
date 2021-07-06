@@ -6,7 +6,7 @@ A shareable ESLint config.
 
 ```sh
 # Install the shareable config
-npm i -D @hmlr/eslint-config
+npm i -save-dev @hmlr/eslint-config
 
 # Install all dependencies (npm 5+)
 npx install-peerdeps --dev @hmlr/eslint-config
