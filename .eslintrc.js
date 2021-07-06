@@ -72,7 +72,22 @@ module.exports = {
     "no-undef-init": 2,
     "prefer-const": 2,
     "prefer-destructuring": 2,
-    "prefer-template": 2
+    "prefer-template": 2,
+    "no-console": 2,
+    "no-loss-of-precision": 2,
+    "no-template-curly-in-string": 2,
+    "no-unreachable-loop": 2,
+    "block-scoped-var": 2,
+    "complexity": ["warn", 10],
+    "consistent-return": 2,
+    "curly": 2,
+    "default-param-last": 2,
+    "eqeqeq": 2,
+    "no-alert": 2,
+    "no-empty-function": 2,
+    "no-empty-pattern": 2,
+    "no-eq-null": 2,
+    "no-eval": 2
   }
 }
 

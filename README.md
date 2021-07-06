@@ -39,7 +39,7 @@ Add the config to the `extends` property of your `.eslintrc` file. For more info
 
 ### Running the rules
 
-Add any or all of the following scripts to your `package.json`, changing directories and extensions as necessary:
+Add any or all of the following scripts to your `package.json`, changing directories, extensions and parameters as necessary:
 
 ```json
 {
