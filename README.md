@@ -44,8 +44,8 @@ Add any or all of the following scripts to your `package.json`, changing directo
 ```json
 {
   "scripts": {
-    "eslint": "eslint src",
-    "eslint:fix": "eslint --fix src",
+    "eslint": "eslint src --ext js,jsx,ts,tsx",
+    "eslint:fix": "eslint --ext js,jsx,ts,tsx --fix src",
     "prettier": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'",
     "prettier:fix": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'"
   }
