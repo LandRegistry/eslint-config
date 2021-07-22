@@ -1,6 +1,6 @@
 {
   "name": "@hmlr/eslint-config",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Shareable ESLint config",
   "main": "index.js",
   "files": [

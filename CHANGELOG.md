@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - yyyy-mm-dd
 ### Added
-- Initial commit
+- ?
 ### Changed
 - ?
 ### Deprecated
@@ -18,7 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - ?
 
-[Unreleased]: https://git.wearesponge.com/coastline/coastline/compare/v0.2.0...develop
-[0.2.0]: https://git.wearesponge.com/coastline/coastline/compare/v0.1.0...v0.2.0
+## [1.0.0] - yyyy-mm-dd
+### Added
+- Initial commit
+
+[Unreleased]: https://git.wearesponge.com/coastline/coastline/compare/v1.0.0...develop
+[1.0.0]: https://git.wearesponge.com/coastline/coastline/compare/v0.1.0...v1.0.0
 [0.1.0]: https://git.wearesponge.com/coastline/coastline/-/tags/v0.1.0
 
