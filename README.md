@@ -54,7 +54,7 @@ If you don't have ESLint set up already, you can add any or all of the following
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/LandRegistry/eslint-config/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://www.npmjs.com/package/@hmlr/eslint-config?activeTab=versions).
 
 ## How to contribute
 
