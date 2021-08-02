@@ -44,7 +44,7 @@ If you don't have ESLint set up already, you can add any or all of the following
 ```json
 {
   "scripts": {
-    "eslint": "eslint src --ext js,jsx,ts,tsx",
+    "eslint": "eslint --ext js,jsx,ts,tsx src",
     "eslint:fix": "eslint --ext js,jsx,ts,tsx --fix src",
     "prettier": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'",
     "prettier:fix": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'"
