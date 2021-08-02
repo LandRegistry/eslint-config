@@ -5,7 +5,9 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   env: {
-    es6: true
+    browser: true,
+    es6: true,
+    jest: true
   },
   parserOptions: {
     ecmaVersion: 6

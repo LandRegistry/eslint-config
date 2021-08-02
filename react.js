@@ -10,10 +10,6 @@ module.exports = {
       "version": "detect"
     }
   },
-  env: {
-    browser: true,
-    jest: true
-  },
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
