@@ -14,7 +14,7 @@ npx install-peerdeps --dev @hmlr/eslint-config
 
 ### How to use in JS or TS projects
 
-Add the config to the `extends` property of your `.eslintrc` file. For more information, see [using a shareable config](https://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config) on eslint.org
+Add the config to the `extends` property of your `.eslintrc*` file. For more information, see [using a shareable config](https://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config) on eslint.org
 
 ```json
 {
