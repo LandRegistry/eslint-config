@@ -39,19 +39,26 @@ Add the config to the `extends` property of your `.eslintrc` file. For more info
 
 ### Running the rules
 
-If you don't have ESLint set up already, you can add any or all of the following scripts to your `package.json`, changing directories, extensions and parameters as necessary:
+If you don't have ESLint set up already, you can add one or both of the following scripts to your `package.json`, changing directories, extensions and parameters as necessary:
 
 ```json
 {
   "scripts": {
-    "lint": "npm run eslint && npm run prettier",
-    "lint:fix": "npm run eslint:fix && npm run prettier:fix",
     "eslint": "eslint --ext js,jsx,ts,tsx src",
     "eslint:fix": "eslint --ext js,jsx,ts,tsx --fix src",
-    "prettier": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'",
-    "prettier:fix": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'"
   }
 }
+```
+
+## Prettier
+
+In addition to linting your code with ESLint, we also recommend installing [Prettier](https://prettier.io/) to help with code formatting.
+
+It is suggested that you avoid modifying any of the default options in order to maintain consistency. To learn why, see the [philosophy on options from Prettier](https://prettier.io/docs/en/option-philosophy.html).
+
+```sh
+npm i -save-dev prettier
+prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'
 ```
 
 ## Versioning
