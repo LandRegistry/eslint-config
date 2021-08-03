@@ -44,6 +44,8 @@ If you don't have ESLint set up already, you can add any or all of the following
 ```json
 {
   "scripts": {
+    "lint": "npm run eslint && npm run prettier",
+    "lint:fix": "npm run eslint:fix && npm run prettier:fix",
     "eslint": "eslint --ext js,jsx,ts,tsx src",
     "eslint:fix": "eslint --ext js,jsx,ts,tsx --fix src",
     "prettier": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'",
