@@ -1,7 +1,14 @@
 {
   "name": "@hmlr/eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Shareable ESLint config",
+  "main": "index.js",
+  "files": [
+    ".eslintrc.js",
+    "index.js",
+    "node.js",
+    "react.js"
+  ],
   "scripts": {
     "test": "npm run test:conflicts",
     "test:conflicts": "npx eslint-config-prettier index.js"
@@ -26,16 +33,12 @@
   },
   "homepage": "https://github.com/LandRegistry/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">= 7"
-  },
-  "devDependencies": {
-    "eslint-config-prettier": "^8.1.0",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx": "^0.1.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.2.1"
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

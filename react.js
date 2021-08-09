@@ -5,9 +5,10 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
     "@hmlr/eslint-config"
   ],
-  env: {
-    browser: true,
-    jest: true
+  settings: {
+    "react": {
+      "version": "detect"
+    }
   },
   parserOptions: {
     ecmaVersion: 12,
