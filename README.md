@@ -58,7 +58,7 @@ It is suggested that you avoid modifying any of the default options in order to 
 
 ```sh
 npm i -save-dev prettier
-prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json}'
+prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json,html}'
 ```
 
 ## Versioning
