@@ -1,24 +1,21 @@
 module.exports = {
-  extends: [
-    "eslint:recommended",
-    "plugin:import/recommended"
-  ],
+  extends: ["eslint:recommended", "plugin:import/recommended"],
   env: {
     browser: true,
     es6: true,
-    jest: true
+    jest: true,
   },
   parserOptions: {
-    ecmaVersion: 6
+    ecmaVersion: 6,
   },
   rules: {
     "block-scoped-var": 2,
-    "complexity": ["warn", 10],
+    complexity: ["warn", 10],
     "consistent-return": 2,
     "constructor-super": 2,
-    "curly": 2,
+    curly: 2,
     "default-param-last": 2,
-    "eqeqeq": 2,
+    eqeqeq: 2,
     "for-direction": 2,
     "getter-return": 2,
     "no-alert": 2,
@@ -103,7 +100,6 @@ module.exports = {
     "use-isnan": 2,
     "valid-typeof": 2,
     "vars-on-top": 2,
-    "yoda": 2
-  }
-}
-
+    yoda: 2,
+  },
+};

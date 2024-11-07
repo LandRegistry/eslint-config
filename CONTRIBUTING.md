@@ -29,4 +29,3 @@ If you want to contribute code directly to the project in order to fix a bug or 
 5. If the build passes, [create a pull request](https://guides.github.com/activities/forking/#making-a-pull-request). Please provide as much useful information about your change as possible.
 
 6. Your new pull request will be reviewed by one of the project maintainers, who may ask for more detail, suggest another course of action, or prioritise and allocate it to a future milestone.
-
