@@ -32,6 +32,10 @@
     "url": "https://github.com/LandRegistry/eslint-config/issues"
   },
   "homepage": "https://github.com/LandRegistry/eslint-config#readme",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
   "peerDependencies": {
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
