@@ -1,6 +1,6 @@
 {
   "name": "@hmlr/eslint-config",
-  "version": "1.2.0-rc.1",
+  "version": "1.2.0-rc.2",
   "description": "Shareable ESLint config",
   "main": "index.js",
   "files": [
@@ -26,7 +26,18 @@
     "hmlr",
     "landregistry"
   ],
-  "author": "Andrew Hosgood <andrew.hosgood@landregistry.gov.uk>",
+  "author": {
+    "name": "Andrew Hosgood",
+    "email": "andrew.hosgood@landregistry.gov.uk",
+    "url": "https://andrewhosgood.dev"
+  },
+  "contributors": [
+    {
+      "name": "Matt Shaw",
+      "email": "matthew.shaw@landregistry.gov.uk",
+      "url": "https://matthew-shaw.github.io/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LandRegistry/eslint-config/issues"
@@ -37,12 +48,18 @@
     "npm": "10.x"
   },
   "peerDependencies": {
-    "eslint": "^8.57.1",
-    "eslint-config-prettier": "^8.10.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx": "^0.1.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^4.6.2"
+    "eslint-plugin-react-hooks": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.2.4",
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.16.0",
+    "globals": "^15.13.0"
   }
 }
