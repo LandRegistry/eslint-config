@@ -1,7 +1,6 @@
 module.exports = {
   extends: "@hmlr/eslint-config",
   env: {
-    node: true
-  }
-}
-
+    node: true,
+  },
+};

@@ -18,7 +18,7 @@ Add the config to the `extends` property of your `.eslintrc*` file. For more inf
 
 ```json
 {
-    "extends": "@hmlr/eslint-config"
+  "extends": "@hmlr/eslint-config"
 }
 ```
 
@@ -26,14 +26,15 @@ Add the config to the `extends` property of your `.eslintrc*` file. For more inf
 
 ```json
 {
-    "extends": "@hmlr/eslint-config/react"
+  "extends": "@hmlr/eslint-config/react"
 }
 ```
+
 ### Node projects
 
 ```json
 {
-    "extends": "@hmlr/eslint-config/node"
+  "extends": "@hmlr/eslint-config/node"
 }
 ```
 
@@ -45,7 +46,7 @@ If you don't have ESLint set up already, you can add one or both of the followin
 {
   "scripts": {
     "eslint": "eslint --ext js,jsx,ts,tsx src",
-    "eslint:fix": "eslint --ext js,jsx,ts,tsx --fix src",
+    "eslint:fix": "eslint --ext js,jsx,ts,tsx --fix src"
   }
 }
 ```
@@ -58,7 +59,7 @@ It is suggested that you avoid modifying any of the default options in order to 
 
 ```sh
 npm i -save-dev prettier
-prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,less,json,html}'
+prettier --write "src/**/*.{js,jsx,ts,tsx,css,scss,less,json,html}"
 ```
 
 ## Versioning
@@ -80,4 +81,3 @@ This software is provided _"as-is"_ without warranty. Support is provided on a _
 If you are a civil servant you can sign up to the [UK Government Digital Slack](https://ukgovernmentdigital.slack.com/signup) workspace to contact the maintainers listed [above](#contributors) and the community of people using this project in the [#govuk-design-system](https://ukgovernmentdigital.slack.com/archives/C6DMEH5R6) channel.
 
 Otherwise, please see the [contribution guidelines](CONTRIBUTING.md) for how to raise a bug report or feature request.
-
